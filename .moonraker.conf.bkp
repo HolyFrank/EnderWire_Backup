@@ -30,16 +30,12 @@ enable_object_processing = True
 subscriptions = 
 	octoapp.
 
-[spoolman]
-server = http://192.168.2.14:7912
-sync_rate = 5
-
 [update_manager octoapp]
 type = git_repo
 channel = beta
-path = /home/pi/octoapp
+path = /home/biqu/octoapp
 origin = https://github.com/crysxd/OctoApp-Plugin.git
-env = /home/pi/octoapp-env/bin/python
+env = /home/biqu/octoapp-env/bin/python
 requirements = requirements.txt
 install_script = install.sh
 managed_services = 
